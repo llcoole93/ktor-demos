@@ -5,6 +5,7 @@ val logback_version: String by project
 plugins {
     application
     kotlin("jvm") version "1.5.31"
+    kotlin("plugin.serialization") version "1.5.31"
 }
 
 group = "com.example"
@@ -19,6 +20,7 @@ repositories {
 
 dependencies {
     implementation("io.ktor:ktor-server-core:$ktor_version")
+    implementation ("com.google.code.gson:gson:2.8.5")
     implementation("io.ktor:ktor-auth:$ktor_version")
     implementation("io.ktor:ktor-server-host-common:$ktor_version")
     implementation("io.ktor:ktor-locations:$ktor_version")
