@@ -5,12 +5,45 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ktor-websockets-chat-sample-main" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Program Files/Gradle/gradle-6.8.3" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ktor-websockets-chat-sample-main" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ktor-websockets-chat-sample-main/client" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Program Files/Gradle/gradle-6.8.3" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ktor-websockets-chat-sample-main/client" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ktor-websockets-chat-sample-main/server" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Program Files/Gradle/gradle-6.8.3" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ktor-websockets-chat-sample-main/server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sample-api" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Program Files/Gradle/gradle-6.8.3" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/sample-api" />
           </set>
         </option>
       </GradleProjectSettings>
